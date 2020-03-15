@@ -44,7 +44,7 @@ module.exports = function (grunt) {
     uglify: {
       release:{
         files: {
-          'dist/index.js': 'dist/index.js',
+          'dist/index.js': 'dist/baidu.js',
         }
       }
     },
@@ -63,10 +63,10 @@ module.exports = function (grunt) {
       },
       js: {
         src: ['index.js', 'calc.js'],
-        dest: 'dist/index.js'
+        dest: 'dist/baidu.js'
       }
     },
-    clean: ['dist/index.js', '.tmp'],
+    clean: ['dist/baidu.js', '.tmp'],
     copy: {
       html: {
         src: './index.html',
