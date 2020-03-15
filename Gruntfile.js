@@ -72,6 +72,13 @@ module.exports = function (grunt) {
         src: './index.html',
         dest: './dist/index.html'
       }
+    },
+    imgmin: {                               
+      files: {
+        expand: true,
+        src: ['img/*.{png,jpg,gif}'],
+        dest: 'dist/'
+      }
     }
   });
 
