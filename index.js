@@ -58,25 +58,3 @@ function checkForm(){
        return true; 
        } 
     } 
-
-
-    // window.onload=function(){
-    //     var send=document.getElementById('send'),
-    //         times=60, 
-    //         timer=null;
-    //     send.onclick=function(){
-    //         // 计时开始 
-    //     timer=setInterval(function(){
-    //         times--;
-    //         if(times<=0){
-    //                 send.value="发送验证码";
-    //                 clearInterval(timer);
-    //                 times=5;
-    //                 send.disabled=false;
-    //             }else{
-    //                 send.value=times+"秒后重试"
-    //                 send.disabled=true;
-    //             }
-    //     },1000)
-    //     } 
-    // }
