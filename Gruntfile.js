@@ -39,12 +39,12 @@ module.exports = function (grunt) {
       }
     },
     cssmin: {
-      'dist/rectangle.css': 'rectangle.css'
+      'dist/index.css': 'index.css'
     },
     uglify: {
       release:{
         files: {
-          'dist/bundle.min.js': 'dist/bundle.js',
+          'dist/baidu.min.js': 'dist/baidu.js',
         }
       }
     },
@@ -62,11 +62,11 @@ module.exports = function (grunt) {
         separator: ';'
       },
       js: {
-        src: ['rectangle.js', 'calc.js'],
-        dest: 'dist/bundle.js'
+        src: ['index.js', 'calc.js'],
+        dest: 'dist/baidu.js'
       }
     },
-    clean: ['dist/bundle.js', '.tmp'],
+    clean: ['dist/baidu.js', '.tmp'],
     copy: {
       html: {
         src: './index.html',
